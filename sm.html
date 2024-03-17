@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Management System</title>
+    <link rel="stylesheet" href="./sm.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Student Management System</h1>
+        <form id="addStudentForm">
+            <label for="firstName">First Name:</label>
+            <input type="text" id="firstName" name="firstName" required>
+            <label for="lastName">Last Name:</label>
+            <input type="text" id="lastName" name="lastName" required>
+            <label for="rollNo">Roll Number:</label>
+            <input type="text" id="rollNo" name="rollNo" required>
+            <label for="cgpa">CGPA:</label>
+            <input type="text" id="cgpa" name="cgpa" required>
+            <label for="courses">Courses:</label>
+            <input type="text" id="courses" name="courses" required>
+            <label for="attendance">Attendance:</label>
+            <input type="text" id="attendance" name="attendance" required>
+            <button type="submit">Add Student</button>
+        </form>
+        <div id="studentList">
+            <!-- Student list will be displayed here -->
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
